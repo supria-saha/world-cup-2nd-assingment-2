@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+ #banner{
+    margin: auto;
+    color: white;
+    background-color: black;  
+    width: 1200px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.type{
+    margin-top: 30px;
+    background-color: black;
+   border-radius: 8px;
+   display:grid;
+    width: 20%;
+   height: 10%;
+   
+   }
+.color{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 5px; 
+    font-size: 16px;
+    width: 80%;
+    height: 60%;
+}
+
+#t-color{
+    background-color: red;
+}
+
+#banner .banner-content{
+    padding: 30px 10px 70px;
+}
+#banner img{
+    width: 100%;
+    height: auto;
+}
+.btn-danger{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}   
+.btn i{
+    margin-left: 10px;
+}   
+.w-33{
+    
+    width: 33%;
+   
+} 
+.w-50{
+    width: 50%;
+   
+}
+.w-25{
+    width: 25%;
+}
+.w-75{
+   
+    width: 75%;
+    float: left;
+}
+.b-section{
+    
+    margin: auto;
+    display: flex;
+    
+   width: 1200px;
+   justify-content: center;
+  
+   margin-top: 40px;
+   
+}
+.picture{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.blog-section{ 
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30px   ;
+    gap: 8px;
+}
+.blog-section .blog{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 310px;
+    }
+.blog-content{
+    padding: 10px;
+}
+.btn-outline{
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 24px;
+}
+.tnc{
+    display: flex;
+    align-items: center;
+}
+.tnc span{
+    padding-right: 15px;
+}
+.bg-dark{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/* footer */
+
+#footer{
+    padding: 100px 0;
+    margin-top: 50px;
+    
+}
+
+.display{
+    color: #B9B9B9;
+    font-size: 16px;
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    justify-content: space-between;
+    width: 1200px;
+}
